@@ -1,0 +1,9 @@
+<h2>Liste des mouvements</h2>
+
+<section class="container">
+  <div *ngFor="let mouvement of mouvements">
+    <h3>{{ mouvement.name }}</h3>
+    <img *ngIf="mouvement && mouvement.image" src="{{mouvement.image}}" alt="{{mouvement.name}}">
+    <p>{{mouvement.description}}</p>
+  </div>
+</section>

@@ -1,0 +1,38 @@
+section img {
+  max-width: 300px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+
+section div {
+  background-color: #e3e3e3;
+  width: 300px;
+  padding: 10px 20px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+section h3 {
+  margin-bottom: 10px;
+}
+
+section img {
+  margin-bottom: 10px;
+}
+
+section div:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+h2 {
+  display: block;
+  max-width: 1200px;
+  margin: 20px auto 30px auto;
+  font-size: 24px;
+}

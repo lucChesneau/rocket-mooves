@@ -1,0 +1,46 @@
+header {
+  height: 80px;
+  padding: 0 15px;
+  background-color: #5b2786;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+header * {
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul {
+  display: flex;
+  gap: 10px
+}
+
+li {
+  list-style: none;
+}
+
+li {
+  transition: .3s;
+}
+
+li:hover {
+  transform: rotate(280deg);
+}
+
+img[alt="logo-rocket"] {
+  height: 40px;
+  width: auto;
+  transition: .5s;
+}
+
+img[alt="logo-rocket"]:hover {
+  height: 50px;
+  margin-right: -27px;
+  width: auto;
+}
